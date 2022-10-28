@@ -1,0 +1,71 @@
+.project-text {
+    align-self: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+
+    height: 100vh;
+    justify-content: center;
+    letter-spacing: 0.1rem;
+    padding-left: 7%;
+    text-shadow: 0rem 0 0.2rem black;
+}
+
+.text-link1 {
+    background-color: hsl(281, 73%, 71%);
+    opacity: 0.9;
+    width: 50%;
+}
+
+.text-link2 {
+    background-color: hsl(240, 100%, 27%);
+    opacity: 1;
+    width: 50%;
+}
+
+.text-link3 {
+    background-color: hsl(148, 23%, 89%);
+    opacity: 0.9;
+    width: 50%;
+}
+
+.text-link4 {
+    background-color: hsl(170, 100%, 26%);
+    opacity: 1;
+    width: 50%;
+}
+
+.text-link5 {
+    background-color: hsl(227, 60%, 97%);
+    opacity: 0.9;
+    width: 50%;
+}
+
+.text-link6 {
+    background-color: hsl(283, 94%, 27%);
+    opacity: 1;
+    width: 50%;
+}
+
+.text-link1:hover {
+    background-color: hsl(281, 62%, 42%);
+    transition: 1s;
+}
+
+.text-link2:hover,
+.text-link4:hover,
+.text-link6:hover {
+    filter: brightness(0.9);
+    transition: 1s;
+}
+
+.text-link3:hover {
+    background-color: hsl(170, 100%, 14%);
+    transition: 1s;
+}
+
+.text-link5:hover {
+    background-color: hsl(228, 28%, 45%);
+    transition: 1s;
+}

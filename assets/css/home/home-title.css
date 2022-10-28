@@ -1,0 +1,14 @@
+.home-title {
+    animation: titleAnimation 2s ease;
+    font-size: 10rem;
+    margin: 0 7%;
+}
+
+@keyframes titleAnimation {
+    from {
+        margin-bottom: 100%;
+    }
+    to {
+        margin-bottom: 0;
+    }
+}

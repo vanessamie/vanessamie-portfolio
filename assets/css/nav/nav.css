@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+}
+
+#nav {
+    align-items: flex-end;
+    display: flex;
+    height: 10rem;
+    justify-content: space-between;
+    padding-inline: 7%;
+}

@@ -1,0 +1,19 @@
+@import url("./reset.css");
+@import url("./normalize.css");
+@import url("./style.css");
+
+@import url("../nav/nav.css");
+@import url("../nav/nav-name.css");
+@import url("../nav/nav-menu.css");
+
+@import url("../home/home.css");
+@import url("../home/home-title.css");
+@import url("../home/home-description.css");
+
+@import url("../project/project.css");
+@import url("../project/project-project.css");
+@import url("../project/project-descripton.css");
+@import url("../project/project-descripton-text.css");
+@import url("../project/project-image.css");
+
+@import url("../footer/footer.css");

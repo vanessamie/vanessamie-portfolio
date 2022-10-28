@@ -1,0 +1,7 @@
+#nav-name {
+    color: var(--color-name);
+    font-family: 'Island Moments', cursive;
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: -2rem;
+}

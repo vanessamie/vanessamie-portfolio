@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto&display=swap');
+
+:root {
+    --hue: 330;
+    --background: hsl(calc(var(--hue) - 170), 17%, 87%);
+    --color: hsl(calc(var(--hue) - 300), 0%, 20%);
+    --color-name: hsl(var(--hue), 97%, 40%);
+    --link-menu: hsl(var(--hue), 90%, 30%);
+
+    /*DARK THEME*/
+
+    --background-dark: hsl(calc(var(--hue) - 170), 17%, 7%);
+    --color-dark: hsl(calc(var(--hue) - 170), 16%, 87%);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background);
+    color: var(--color);
+}
+
+a {
+    background-color: transparent;
+    color: var(--link-menu);
+}
+
+.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--color-dark);
+}
