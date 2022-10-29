@@ -1,21 +1,62 @@
 footer {
-    height: 30rem;
-    font-size: 3rem;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    font-size: 3rem;
     justify-content: space-between;
-    padding-left: 7%;
 }
 
 .footer-name {
+    font-family: 'Island Moments', cursive;
+    font-weight: bolder;
     margin-top: 7rem;
-    color: var(--color);
+    
 }
+
 .footer-social a {
     padding-right: 3rem;
 }
 
 .fa-brands {
     color: var(--link-menu);
+}
+
+@media screen and (min-width: 0) {
+    footer {
+        height: 10%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .footer-name {
+        font-size: 3.5rem;        
+    }
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 668px) {
+    
+}
+
+@media screen and (min-width: 780px) {
+    footer {
+        height: 30rem;
+        padding-left: 7%;
+        padding-bottom: 7%;
+    }
+    
+    .footer-name {
+        font-size: 5rem;        
+    }
+    
+}
+@media screen and (min-width: 912px) {
+    
+}
+@media screen and (min-width: 1024px) {
+    
+    
 }

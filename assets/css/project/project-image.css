@@ -1,35 +1,67 @@
-.image-link1 {
-    background: url(../img-bgd/imagine-linhas.png) center/ cover no-repeat;
-    background-attachment: fixed;
+.project-project {
     height: 100vh;
 }
 
-.image-link2 {
-    background: url(../img-bgd/mega-sena.png) right/ 50% no-repeat;
+.image-link1 {
+    background: url(../img-bgd/imagine-linhas.png) center/ cover no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 .image-link3 {
     background: url(../img-bgd/dr-care.png) center/ cover no-repeat;
     background-attachment: fixed;
-    height: 100vh;
-}
-
-.image-link4 {
-    background: url(../img-bgd/mie-tasks.png) right/ 50% no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
 }
 
 .image-link5 {
     background: url(../img-bgd/encryptor.png) right/ 100% no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 
-.image-link6 {
-    background: url(../img-bgd/pulse-heart.png) right/ 50% no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+@media screen and (min-width: 0) {
+    .image-link2 {
+        background: url(../img-bgd/mega-sena.png) center/ cover no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .image-link4 {
+        background: url(../img-bgd/mie-tasks.png) center/ cover no-repeat;
+        background-attachment: fixed;
+    }
+   
+    .image-link6 {
+        background: url(../img-bgd/pulse-heart.png) center/ cover no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 668px) {
+    
+}
+
+@media screen and (min-width: 780px) {
+    
+}
+@media screen and (min-width: 912px) {
+    
+}
+@media screen and (min-width: 1024px) {
+    .image-link2 {
+        background: url(../img-bgd/mega-sena.png) right/ 50% no-repeat;
+        background-attachment: fixed;
+    }
+
+    .image-link4 {
+        background: url(../img-bgd/mie-tasks.png) right/ 50% no-repeat;
+        background-attachment: fixed;
+    }
+
+    .image-link6 {
+        background: url(../img-bgd/pulse-heart.png) right/ 50% no-repeat;
+        background-attachment: fixed;
+    }
+   
 }

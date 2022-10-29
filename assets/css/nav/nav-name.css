@@ -1,7 +1,26 @@
 #nav-name {
     color: var(--color-name);
     font-family: 'Island Moments', cursive;
-    font-size: 7rem;
     font-weight: bolder;
-    margin-bottom: -2rem;
+}
+
+@media screen and (min-width: 0) {
+    #nav-name {
+        font-size: 4rem;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    #nav-name {
+        margin-bottom: -2rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #nav-name {
+        font-size: 7rem;
+    }
 }

@@ -3,9 +3,29 @@ header {
 }
 
 #nav {
-    align-items: flex-end;
     display: flex;
     height: 10rem;
-    justify-content: space-between;
-    padding-inline: 7%;
+}
+
+@media screen and (min-width: 0) {
+    #nav {
+        flex-direction: column;
+        justify-content: center;
+        padding-inline: 5%;
+        text-align: center;
+    }  
+}
+
+@media screen and (min-width: 480px) {
+    #nav {
+        align-items: flex-end;
+        justify-content: space-between;
+    }   
+}
+
+@media screen and (min-width: 780px) {
+    #nav {
+        flex-direction: row;
+        padding-inline: 7%;
+    }
 }
