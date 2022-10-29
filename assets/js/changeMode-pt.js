@@ -5,8 +5,8 @@ const body = document.getElementsByTagName('body')[0];
 const footer = document.getElementsByTagName('footer')[0];
 
 const darkModeClass = 'dark-mode';
-const lightModeText = 'Light';
-const darkModeText = 'Dark';
+const lightModeText = 'Claro';
+const darkModeText = 'Escuro';
 
 function changeClasses() {
     btn.classList.toggle(darkModeClass);
