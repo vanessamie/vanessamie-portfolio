@@ -1,5 +1,5 @@
 /* Acessando os itens*/
-const btn = document.getElementById('nav-btn');
+const btn = document.getElementById('nav-btn-pt');
 const title = document.getElementById('nav-name');
 const body = document.getElementsByTagName('body')[0];
 const footer = document.getElementsByTagName('footer')[0];

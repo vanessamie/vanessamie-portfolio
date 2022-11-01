@@ -10,10 +10,11 @@
 @import url("../home/home-title.css");
 @import url("../home/home-description.css");
 
-@import url("../project/project.css");
 @import url("../project/project-project.css");
 @import url("../project/project-descripton.css");
 @import url("../project/project-descripton-text.css");
 @import url("../project/project-image.css");
 
 @import url("../footer/footer.css");
+@import url("../footer/footer-back-top.css");
+

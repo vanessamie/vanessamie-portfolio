@@ -12,3 +12,22 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 0) {
+    .home-title {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .home-title {
+        font-size: 5rem;
+    }
+
+}
+
+@media screen and (min-width: 912px) {
+    .home-title {
+        font-size: 10rem;
+    }
+}

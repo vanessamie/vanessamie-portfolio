@@ -1,0 +1,9 @@
+.back-to-top {
+    align-self: flex-end;
+    margin-right: 7%;
+}
+
+.back-to-top-arrow {
+    width: 4rem;
+    height: 4rem;
+}

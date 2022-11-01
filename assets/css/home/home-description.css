@@ -1,6 +1,5 @@
 .home-description {
     font-size: 2rem;
-    margin: 3rem 7% 12rem;
     animation: descriptionAnimation 3s;
 }
 
@@ -15,12 +14,60 @@
     opacity: 0;
 }
 
-@keyframes descriptionAnimation {
-    from {
-        margin-bottom: -20%;
+
+@media screen and (min-width: 0) {
+    .home-description {
+        margin: 3rem 7% 12rem;
     }
-    to {
-        margin-bottom: 12rem;
+
+    .fa-angles-down {
+        margin-bottom: 6rem;
+    }
+    
+    @keyframes descriptionAnimation {
+        from {
+            margin-bottom: -20%;
+        }
+        to {
+            margin-bottom: 12rem;
+        }
     }
 }
 
+@media screen and (min-width: 780px) {
+    .home-description {
+        margin: 3rem 7% 2rem;
+    }
+
+    .fa-angles-down {
+        margin-bottom: 6rem;
+    }
+
+    @keyframes descriptionAnimation {
+        from {
+            margin-bottom: -20%;
+        }
+        to {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .home-description {
+        margin: 3rem 7% 12rem;
+    }
+
+    .fa-angles-down {
+        margin-bottom: 0;
+    }
+
+    @keyframes descriptionAnimation {
+        from {
+            margin-bottom: -20%;
+        }
+        to {
+            margin-bottom: 12rem;
+        }
+    }
+}

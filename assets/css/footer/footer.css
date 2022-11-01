@@ -3,13 +3,11 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 3rem;
-    justify-content: space-between;
 }
 
 .footer-name {
     font-family: 'Island Moments', cursive;
     font-weight: bolder;
-    margin-top: 7rem;
     
 }
 
@@ -24,12 +22,14 @@ footer {
 @media screen and (min-width: 0) {
     footer {
         height: 10%;
+        justify-content: space-between;
         padding-left: 5%;
         padding-bottom: 5%;
     }
     
     .footer-name {
         font-size: 3.5rem;        
+        margin-top: 7rem;
     }
 }
 
@@ -43,17 +43,26 @@ footer {
 
 @media screen and (min-width: 780px) {
     footer {
-        height: 30rem;
+        height: 5rem;
         padding-left: 7%;
         padding-bottom: 7%;
     }
     
     .footer-name {
         font-size: 5rem;        
+        margin-top: 7%;
     }
     
 }
 @media screen and (min-width: 912px) {
+    footer {
+        height: 30rem;
+        justify-content: space-evenly;
+    }
+    
+    .footer-name {
+        font-size: 5rem;        
+    }
     
 }
 @media screen and (min-width: 1024px) {
