@@ -31,7 +31,6 @@ div.image-link* {
 
 .image-link6 {
     background: url(../img-bgd/pulse-heart.png) center/ cover no-repeat;
-    background-attachment: fixed;
 }
 
 .sticky {
@@ -77,6 +76,5 @@ div.image-link* {
     
     .image-link6 {
         background: url(../img-bgd/pulse-heart.png) center/ cover no-repeat;
-        background-attachment: fixed;
     }
 }
