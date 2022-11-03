@@ -2,66 +2,81 @@
     height: 100vh;
 }
 
+div.image-link* {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+}
+
 .image-link1 {
     background: url(../img-bgd/imagine-linhas.png) center/ cover no-repeat;
-    background-attachment: fixed;
+}
+
+.image-link2 {
+    background: url(../img-bgd/mega-sena.PNG) center/ cover no-repeat;
 }
 
 .image-link3 {
-    background: url(../img-bgd/dr-care.png) center/ cover no-repeat;
-    background-attachment: fixed;
+    background: url(../img-bgd/dr-care.PNG) center/ cover no-repeat;
+}
+
+.image-link4 {
+    background: url(../img-bgd/mie-tasks.PNG) center/ cover no-repeat;
 }
 
 .image-link5 {
-    background: url(../img-bgd/encryptor.png) right/ 100% no-repeat;
+    background: url(../img-bgd/encryptor.PNG) center/ cover no-repeat;
+}
+
+.image-link6 {
+    background: url(../img-bgd/pulse-heart.png) center/ cover no-repeat;
     background-attachment: fixed;
 }
 
-@media screen and (min-width: 0) {
+.sticky {
+    height: 100vh;
+    margin-top: -100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 99vw;
+    z-index: 0;
+  }
+
+.project-header {
+    align-items: center;
+    display: flex;
+    height:100vh;
+    justify-content: flex-start;
+    position: relative;
+    width:100%;
+    z-index: 2
+}
+
+@media only screen and (orientation: portrait) {
+    .image-link1 {
+        background: url(../img-bgd/imagine-linhas-ios.PNG) center/ cover no-repeat;
+    }
+    
     .image-link2 {
-        background: url(../img-bgd/mega-sena.png) center/ cover no-repeat;
-        background-attachment: fixed;
+        background: url(../img-bgd/mega-sena-ios.PNG) center/ cover no-repeat;
+    }
+    
+    .image-link3 {
+        background: url(../img-bgd/dr-care-ios.PNG) center/ cover no-repeat;
     }
     
     .image-link4 {
-        background: url(../img-bgd/mie-tasks.png) center/ cover no-repeat;
-        background-attachment: fixed;
+        background: url(../img-bgd/mie-tasks.PNG) center/ cover no-repeat;
     }
-   
+    
+    .image-link5 {
+        background: url(../img-bgd/encryptor-ios.PNG) center/ cover no-repeat;
+    }
+    
     .image-link6 {
         background: url(../img-bgd/pulse-heart.png) center/ cover no-repeat;
         background-attachment: fixed;
     }
-}
-
-@media screen and (min-width: 480px) {
-    
-}
-
-@media screen and (min-width: 668px) {
-    
-}
-
-@media screen and (min-width: 780px) {
-    
-}
-@media screen and (min-width: 912px) {
-    
-}
-@media screen and (min-width: 1024px) {
-    .image-link2 {
-        background: url(../img-bgd/mega-sena.png) right/ 50% no-repeat;
-        background-attachment: fixed;
-    }
-
-    .image-link4 {
-        background: url(../img-bgd/mie-tasks.png) right/ 50% no-repeat;
-        background-attachment: fixed;
-    }
-
-    .image-link6 {
-        background: url(../img-bgd/pulse-heart.png) right/ 50% no-repeat;
-        background-attachment: fixed;
-    }
-   
 }

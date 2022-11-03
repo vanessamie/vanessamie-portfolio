@@ -4,28 +4,35 @@ header {
 
 #nav {
     display: flex;
-    height: 10rem;
+    z-index: 2;
 }
 
-@media screen and (min-width: 0) {
+@media (max-device-width: 736px), screen and (orientation: portrait) {
     #nav {
+        align-items: center;
         flex-direction: column;
+        height: 10rem;
         justify-content: center;
         padding-inline: 5%;
         text-align: center;
     }  
 }
 
-@media screen and (min-width: 480px) {
+@media (max-device-height: 736px), screen and (orientation: landscape) {
     #nav {
-        align-items: flex-end;
-        justify-content: space-between;
-    }   
+        gap: 0;
+        height: 3rem;
+        margin: 0;
+        padding: 0;
+    }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 680px) {
     #nav {
+        align-items: flex-end;
         flex-direction: row;
+        height: 10rem;
+        justify-content: space-between;
         padding-inline: 7%;
     }
 }

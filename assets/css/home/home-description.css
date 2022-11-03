@@ -1,27 +1,28 @@
 .home-description {
-    font-size: 2rem;
     animation: descriptionAnimation 3s;
+    font-size: 2rem;
+    z-index: 2;
 }
 
 .fa-angles-down {
     font-size: 2rem;
-    text-align: center;
-    opacity: 0.7;
     filter: brightness(1.3);
+    opacity: 0.7;
+    text-align: center;
+    z-index: 2;
 }
 
 .fade {
     opacity: 0;
 }
 
-
-@media screen and (min-width: 0) {
+@media (max-device-width: 736), screen and (orientation: portrait) {
     .home-description {
         margin: 3rem 7% 12rem;
     }
 
     .fa-angles-down {
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
     }
     
     @keyframes descriptionAnimation {
@@ -34,9 +35,9 @@
     }
 }
 
-@media screen and (min-width: 780px) {
+@media (max-device-height: 736px), screen and (orientation: landscape) {
     .home-description {
-        margin: 3rem 7% 2rem;
+        margin: 1rem 7%;
     }
 
     .fa-angles-down {
@@ -48,7 +49,7 @@
             margin-bottom: -20%;
         }
         to {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
     }
 }

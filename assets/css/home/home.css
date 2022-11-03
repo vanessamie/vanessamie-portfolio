@@ -1,7 +1,43 @@
 #home {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 10rem);
-    justify-content: end;
-    width: calc(100vw - 1.68rem);
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+@media (max-device-width: 736px), screen and (orientation: portrait) {
+    #home {
+        height: 89vh;
+        justify-content: end;
+    }
+}
+
+@media (max-device-height: 736px), screen and (orientation: landscape) {
+    #home {
+        height: 30vh;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 680px), screen and (orientation: portrait) {
+    #home {
+        height: 89vh;
+        justify-content: end;
+        padding-bottom: 6rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #home {
+        height: 89vh;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #home {
+        height: 89.5vh;
+        padding-bottom: 0;
+    }
 }

@@ -1,7 +1,9 @@
 #nav-menu {
     align-items: end;
     display: flex;
+    font-size: 2rem;
     gap: 2rem;
+    z-index: 2;
 }
 
 #nav-menu a {
@@ -13,87 +15,21 @@
     text-shadow: 0.06rem 0rem;
 }
 
-#nav-btn {
-    background-color: var(--background-dark);
-    border: 1px solid;
-    border-radius: 50%;
-    color: var(--color-dark);
-    font-size: 1.2rem;
-    height: 4rem;
-    padding: 0.7rem;
-}
-
-#nav-btn-pt {
-    background-color: var(--background-dark);
-    border: 1px solid;
-    border-radius: 50%;
-    color: var(--color-dark);
-    font-size: 1.2rem;
-    height: 5rem;
-    margin-bottom: -1rem;
-    padding: 0.7rem;
-    width: 5rem;
-}
-
-#nav-menu a:nth-child(4):hover ~ span {
+/* #nav-menu a:nth-child(4):hover ~ span {
     display: block;
   }
   
 
 span {
-    border: 1px solid var(--link-menu);
+    border: 1px solid var(--color);
     border-radius: 4rem;
-    color: var(--link-menu);
+    color: var(--color);
     display: none;
     font-size: 1.5rem;
+    margin-right: 10%;
+    margin-top: 3.5rem;
     padding: 0.3rem;
     position: fixed;
+    width: auto;
 }
-
-.btn-message {
-    border: 1px solid var(--link-menu);
-    border-radius: 4rem;
-    color: var(--link-menu);
-    display: none;
-    font-size: 1.5rem;
-    padding: 0.4rem;
-    position: absolute;
-    top: 12rem;
-    right: 7%;
-}
-
-@media screen and (min-width: 0) {
-    #nav-menu { 
-        font-size: 2rem;
-    }
-
-    span {
-        right: 7rem;
-        top: 12rem;
-    }
-}
-
-@media screen and (min-width: 480px) {
-    
-}
-
-@media screen and (min-width: 668px) {
-    
-}
-
-@media screen and (min-width: 780px) {
-    #nav-menu{
-        flex-direction: row;
-        font-size: 2.5rem;
-
-    }
-}
-@media screen and (min-width: 912px) {
-    span {
-        right: 10%;
-        top: 3.5rem;
-    }
-}
-@media screen and (min-width: 1024px) {
-   
-}
+*/

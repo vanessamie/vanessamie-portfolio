@@ -1,7 +1,7 @@
 .home-title {
     animation: titleAnimation 2s ease;
-    font-size: 10rem;
     margin: 0 7%;
+    z-index: 2;
 }
 
 @keyframes titleAnimation {
@@ -13,17 +13,16 @@
     }
 }
 
-@media screen and (min-width: 0) {
+@media (max-device-width: 736px), screen and (orientation: portrait) {
     .home-title {
-        font-size: 10rem;
+        font-size: 8rem;
     }
 }
 
-@media screen and (min-width: 780px) {
+@media (max-device-height: 736px), screen and (orientation: landscape) {
     .home-title {
         font-size: 5rem;
     }
-
 }
 
 @media screen and (min-width: 912px) {
